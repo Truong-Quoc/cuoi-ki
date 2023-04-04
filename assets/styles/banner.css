@@ -1,0 +1,75 @@
+@import "./globalStyles.css";
+
+.ecommerce_banner {
+  position: relative;
+
+  width: 100%;
+  height: 700px;
+
+  background: red;
+}
+
+.ecommerce_banner .banner_slide_content {
+  position: absolute;
+
+  top: 50%;
+  right: 80px;
+  transform: translateY(-50%);
+
+  /* background: pink; */
+  z-index: 2;
+}
+
+.ecommerce_banner .banner_slide_content h4 {
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.ecommerce_banner .banner_slide_content h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #f1f1f1;
+  font-family: var(--fontMontserrat);
+}
+
+.ecommerce_banner .banner_slide_content button {
+  width: 130px;
+  height: 40px;
+
+  background: transparent;
+
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--grey);
+
+  padding: 0 20px;
+
+  transition: var(--transition);
+
+  cursor: pointer;
+
+  outline: none;
+  border: 1px solid var(--lightGrey);
+}
+
+.ecommerce_banner .banner_slide_content button:hover {
+  color: #ffffff;
+  background: var(--lightRed);
+  transition: var(--transition);
+  border: 1px solid var(--lightRed);
+}
+
+.ecommerce_banner .banner_slide_img {
+  width: 100%;
+  height: 700px;
+}
+
+.ecommerce_banner .banner_slide_img img {
+  z-index: 1;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}

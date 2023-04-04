@@ -1,0 +1,61 @@
+@import "./globalStyles.css";
+
+.ecommerce_service {
+  position: relative;
+
+  width: 100%;
+
+  padding: 30px 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ecommerce_service .service_items {
+  width: 270px;
+  height: 170px;
+
+  padding: 30px;
+  /* background: #fafafac6; */
+  background: #f5f6fa;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  transition: var(--transition);
+
+  border-radius: 5px;
+}
+
+.ecommerce_service .service_items:hover {
+  box-shadow: 2.4px 2.4px 2.7px rgba(0, 0, 0, 0.016),
+    6px 6px 6.9px rgba(0, 0, 0, 0.022),
+    12.2px 12.2px 14.2px rgba(0, 0, 0, 0.028),
+    25.2px 25.2px 29.2px rgba(0, 0, 0, 0.034),
+    69px 69px 80px rgba(0, 0, 0, 0.05);
+  transition: var(--transition);
+  background: #fafafa;
+}
+
+.ecommerce_service .service_items .service_items_content h5 {
+  font-size: 18px;
+  line-height: 22px;
+  margin: 20px 0px 0px;
+  color: #212529;
+  font-family: var(--fontMontserrat);
+}
+
+.ecommerce_service .service_items .service_items_icon {
+  width: 70px;
+  height: 70px;
+}
+
+.ecommerce_service .service_items .service_items_icon img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}

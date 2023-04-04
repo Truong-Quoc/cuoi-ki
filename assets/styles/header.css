@@ -1,0 +1,64 @@
+@import "./globalStyles.css";
+
+.ecommerce_header {
+  position: relative;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  height: 100px;
+}
+
+.ecommerce_header .header_navbar {
+  position: relative;
+  width: 40%;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.ecommerce_header .header_navbar .navbar_items {
+  padding: 28px 17px;
+
+  transition: var(--transition);
+  color: var(--darkGrey);
+
+  font-family: var(--fontMontserrat);
+  font-size: 14px;
+}
+
+.ecommerce_header .header_navbar .navbar_items.isActive,
+.ecommerce_header .header_navbar .navbar_items:hover {
+  background-color: var(--grey);
+
+  transition: var(--transition);
+  color: var(--lightRed);
+}
+
+.ecommerce_header .header_logo {
+  margin-left: 80px;
+}
+
+.ecommerce_header .header_searchbox {
+  position: relative;
+
+  width: 250px;
+  height: 45px;
+
+  margin-right: 80px;
+}
+
+.ecommerce_header .header_searchbox input {
+  width: 100%;
+  height: 100%;
+
+  outline: none;
+  border: 1px solid var(--grey);
+  border-radius: 5px;
+
+  color: var(--lightGrey);
+
+  padding-left: 16px;
+}

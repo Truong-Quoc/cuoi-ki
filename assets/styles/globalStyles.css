@@ -1,0 +1,29 @@
+:root {
+  --lightGrey: #999999;
+  --grey: #cccccc;
+  --darkGrey: #333333;
+
+  --lightRed: #cc3333;
+
+  --darkWhite: #fafafa;
+
+  --fontMontserrat: "Montserrat", sans-serif;
+  --fontLato: "Lato", sans-serif;
+
+  --transition: all 0.2s ease-in-out;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
